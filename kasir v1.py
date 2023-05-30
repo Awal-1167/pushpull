@@ -1,4 +1,4 @@
-harga_barang= int(input("harga per baju"))
+harga_barang= int(input("harga per baju baru"))
 
 if (harga_barang < 50000):
 	print("harganya segitu bang Rp.",harga_barang)
