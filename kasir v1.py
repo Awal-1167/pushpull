@@ -5,7 +5,7 @@ if (harga_barang < 50000):
 
 
 elif harga_barang >= 50000 :
-	persentase_diskon = int(input("diskon "))
+	persentase_diskon = int(input("diskon 20000 "))
 	if (harga_barang > 50000):
 		harga_diskon = harga_barang * persentase_diskon/100 
 		harga_akhir = harga_barang - harga_diskon
